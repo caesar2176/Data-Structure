@@ -24,9 +24,8 @@ typedef struct Node ** PPNODE;
 // Function name  : InsertFirst
 // Description    : Used to insert at first position of Linked List
 // Parameters     : Addreass of First pointer & data of node
-// Return Value   
-: void
-// Date           :
+// Return Value   : void
+// Date           : 26/9/2020
 //
 ///////////////////////////////////////////////////////////////////
 
