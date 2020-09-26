@@ -1,3 +1,13 @@
+///////////////////////////////////////////////////////////////////
+// 
+// Author       : Ashish Shinde 
+// Description  : Used to insert at first position of Linked List
+// Date         : 26/9/2020
+//
+///////////////////////////////////////////////////////////////////
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -25,7 +35,6 @@ typedef struct Node ** PPNODE;
 // Description    : Used to insert at first position of Linked List
 // Parameters     : Addreass of First pointer & data of node
 // Return Value   : void
-// Date           : 26/9/2020
 //
 ///////////////////////////////////////////////////////////////////
 
