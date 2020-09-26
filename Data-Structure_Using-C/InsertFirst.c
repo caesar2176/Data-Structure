@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////
 // 
 // Author       : Ashish Shinde 
-// Description  : Used to insert at first position of Linked List
+// Description  : Used to insert elements in Linked List
 // Date         : 26/9/2020
 //
 ///////////////////////////////////////////////////////////////////
@@ -59,9 +59,9 @@ void InsertFirst(PPNODE Head, int no)
 ///////////////////////////////////////////////////////////////////
 //
 // Function name  : InsertLast
-// Description       : Used to insert at last position of Linked List
-// Parameters       : Addreass of First pointer & data of node
-// Return Value     : void
+// Description    : Used to insert at last position of Linked List
+// Parameters     : Addreass of First pointer & data of node
+// Return Value   : void
 //
 ///////////////////////////////////////////////////////////////////
 
@@ -91,9 +91,9 @@ void InsertLast(PPNODE Head, int no)
 ///////////////////////////////////////////////////////////////////
 //
 // Function name  : Display
-// Description       : Used to idisplay elements of Linked List
-// Parameters       : First pointer
-// Return Value     : void
+// Description    : Used to display elements of Linked List
+// Parameters     : First pointer
+// Return Value   : void
 //
 ///////////////////////////////////////////////////////////////////
 
@@ -109,9 +109,9 @@ void Display(PNODE Head)
 ///////////////////////////////////////////////////////////////////
 //
 // Function name  : Count
-// Description       : Used to count elements of Linked List
-// Parameters       : First pointer
-// Return Value     : int
+// Description    : Used to count elements of Linked List
+// Parameters     : First pointer
+// Return Value   : int
 //
 ///////////////////////////////////////////////////////////////////
 
