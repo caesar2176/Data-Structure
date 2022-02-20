@@ -132,7 +132,7 @@ int main()
 {
     int iRet = 0;
     
-    PNODE First = NULL;     // Shikshakane laksat thewalela pahilya node cha address
+    PNODE First = NULL;     // 
     InsertFirst(&First, 51);    // InsertFirst(60,51);      control goes into if part
     InsertFirst(&First, 21);    // InsertFirst(60,21);      control goes into else part
     InsertFirst(&First, 11);    // InsertFirst(60,11);      Control goes into else part
