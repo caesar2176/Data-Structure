@@ -205,98 +205,58 @@ int main()
     PNODE First = NULL;     
     int no = 0, iRet = 0;
     
-    printf("Enter number : \n");
+    printf("Enter number : \n");            //51
     scanf("%d",&no);
     InsertFirst(&First, no);
     
-    printf("Enter number : \n");
+    printf("Enter number : \n");            //21
     scanf("%d",&no);
     InsertFirst(&First, no);
     
-    printf("Enter number : \n");
+    printf("Enter number : \n");            //11
     scanf("%d",&no);
     InsertFirst(&First, no);
     
-    Display(First);
+    Display(First);                             //  11  21  51
     
-    iRet = Count(First);
-    printf("Number of nodes in the linkedlist are : %d\n",iRet);
+    iRet = Count(First);                        //  3
+    printf("Number of nodes in the linkedlist are : %d\n",iRet);                //  3
     
-    printf("Enter number : \n");
+    printf("Enter Number To Add In Last Position : \n");
     scanf("%d",&no);
     InsertLast(&First, no);
     
-    printf("Enter number : \n");
+    printf("Enter Number To Add In Last Position : \n");
     scanf("%d",&no);
     InsertLast(&First, no);
 
     Display(First);
     
+    DeleteFirst(&First);        //11 Deleted
+    
+    Display(First);         //  21  51  101 111   
+    
+    iRet = Count(First);
+    printf("Number of nodes in the linkedlist are : %d\n",iRet);            //4
+    
+    Display(First);      //  21  51  101 111  
+    
+    
+    DeleteLast(&First);     //111 Deleted
+    
+    Display(First);         // 21  51  101
+    
     iRet = Count(First);
     printf("Number of nodes in the linkedlist are : %d\n",iRet);
 
-    DeleteFirst(&First);
-    
-    Display(First);
-    
-    iRet = Count(First);
-    printf("Number of nodes in the linkedlist are : %d\n",iRet);
-    
-    DeleteLast(&First);
-    
-    Display(First);
-    
-    iRet = Count(First);
-    printf("Number of nodes in the linkedlist are : %d\n",iRet);
-
-    printf("Enter number : \n");
+    printf("Enter number : \n");        //121
     scanf("%d",&no);
     InsertAtPos(&First,no,3);
+    Display(First);
     
+    DeleteAtPos(&First,2);
     Display(First);
 
     return 0;
 }
-
-
-/*
- 
- 
- PNODE Temp = *Head;
- 
- // Loop 1
- // 100 200 300 400 500 NULL
- while(temp != NULL)
- {
-    temp = temp ->next;
- }
- 
- // Loop 2
- // 100 200 300 400 500
- while(temp->next != NULL)
- {
-    temp = temp ->next;
- }
- 
- // Loop 3
- // 100 200 300 400
- while(temp->next->next != NULL)
- {
-    temp = temp ->next;
- }
- 
- 
- 
- 
- */
-
-
-
-
-
-
-
-
-
-
 
